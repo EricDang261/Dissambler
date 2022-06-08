@@ -9,3 +9,9 @@ The program should be able to realize when it has an illegal instruction ( i.e, 
 Address displacements or offsets should be properly displayed as the address of the branch and display that value. It's the absolute address value, not the displacement value. For example: 1000 BRA 993 * Branch to address 993
 
 When it completes the disassembly, the program should prompt the user to disassemble another memory image, or prompt the user to quit.
+# run
+To run this program, execute the Disaambler.x68 file. Then load the s68 test_demo into the program. Try inputting the starting address at 0x9000 and ending address at 0x938C.
+
+# This is some result demo
+![image](https://user-images.githubusercontent.com/62625277/172694524-f7119bac-f4ae-474d-b022-1074f40bf061.png)
+![image](https://user-images.githubusercontent.com/62625277/172695085-568da168-dc2c-48a2-8b39-555b499196b4.png)
